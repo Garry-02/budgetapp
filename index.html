@@ -15,11 +15,36 @@
         <header>
             <h2> Budget App </h2>
         </header>
-        <div class = "left-main">
-            AA
+        <div class = "left-main box">
+            <div>
+                Budget : 
+                <textarea rows="1" cols="10" contenteditable="True"> </textarea>
+            </div>
+            <button class = "createbtn" onclick = "create()"> Create Budget </button> 
+            <div>
+                Item : 
+                <textarea rows="1" cols="10" contenteditable="True"> </textarea>
+            </div>
+            <div>
+                Price : 
+                <textarea rows="1" cols="10" contenteditable="True"> </textarea>
+            </div>
+            <button class = "addbtn" onclick = "additem()"> Add expense item </button> 
         </div>
-        <div class = "right-main">
-            BB
+        <div class = "right-main box">
+            <div class = "content">
+                <ul class = "budget" id = "totalbudget">
+                    <li> My Budget : </li>
+                    <li> 1200 </li>
+                </ul>
+                <ul class = "budget" id = "remainingbudget">
+                    <li> current remaining budget : </li>
+                    <li> 1200 </li>
+                </ul>
+                <ul class = "listitems">
+
+                </ul>
+            </div>
         </div>
         <footer>
            Created by Garry | @Grry02 
