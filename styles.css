@@ -59,3 +59,7 @@ textarea{
 .listitems {
     visibility: visible;
 }
+
+#listitems {
+    list-style: none;
+}
