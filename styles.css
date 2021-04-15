@@ -63,3 +63,31 @@ textarea{
 #listitems {
     list-style: none;
 }
+
+#itemname {
+    visibility: hidden;
+}
+
+#itemprice {
+    visibility: hidden;
+}
+
+.addbtn {
+    visibility: hidden;
+}
+
+@media screen  and (max-width: 499px) {
+    
+    .container{
+        display: grid;
+        grid-template-rows: 4rem 25rem 25rem 2rem;
+        grid-template-columns: 25rem;
+        grid-template-areas: 
+            'h'
+            'l'
+            'r'
+            'f';
+        width: 100vw;
+        height: 100vh;
+    }
+}

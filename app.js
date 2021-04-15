@@ -14,6 +14,9 @@ function create(){
     const entry = document.createElement("li");
     entry.appendChild(document.createTextNode(total));
     totalbudget.appendChild(entry);
+    itemname.style.visibility = "visible";
+    itemprice.style.visibility = "visible";
+    document.querySelector(".addbtn").style.visibility = "visible";
 }
 
 function additem(){
